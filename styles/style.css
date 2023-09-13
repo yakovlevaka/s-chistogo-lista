@@ -238,7 +238,7 @@ header {
     gap: 155px;
     color: #F5F5F5;
 }
-.footer__links{
+.footer__links {
     display: flex;
     justify-content: space-around;
     gap:16px;

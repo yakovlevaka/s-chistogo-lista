@@ -135,7 +135,6 @@ body {
 .content-section_theme_bright {
     background-color: #FEE42A;
     color: #131313;
-    height: 1368px;
     padding: 40px 20px 40px 20px;
 }
 
@@ -161,7 +160,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding-left: 10px;
+    margin-left:15px;
+    list-style-position: outside;
 }
 
 .content-section__list-item {
@@ -182,25 +182,25 @@ body {
 
 .cards-list {
     list-style: none;
+  
+    
 }
-
 .card {
-    width: 319px;
-    border: none;
+    max-width: 319px;
     display: flex;
-    flex-direction: column;
     gap: 32px;
-
+    flex-direction: column;
+    border: none;
+  
 }
-
 .card_theme_dark {
     background-color: #343434;
+    display:block;
     padding: 20px 20px 20px 20px;
     border-radius: 30px;
     color: #F5F5F5;
 
 }
-
 .card__author-photo {
     width: 100px;
     height: 100px;
@@ -226,7 +226,7 @@ body {
 }
 
 .card__text {
-    color: #F5F5F5;
+
     font-size: 16px;
     line-height: 21.6px;
     font-weight: 400;
@@ -252,6 +252,7 @@ body {
     justify-content: space-between;
     padding: 20px 20px 20px 20px;
     color: #F5F5F5;
+    border-top: 1px solid #FEE42A;
 }
 
 .footer__links {
